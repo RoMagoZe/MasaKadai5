@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             alert(message: "割られる数を入力して下さい")
         } else if rightInputNumberTextField.text == "" {
             alert(message: "割る数を入力して下さい")
-        } else if rightInputNumberTextField.text == "0" {
+        } else if numberInput2 == 0 {
             alert(message: "割る数には0を入力しないで下さい")
         } else {
             resultLabel.text = String(numberInput1 / numberInput2)
